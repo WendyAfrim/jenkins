@@ -1,0 +1,27 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "A Node app to learn Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WendyAfrim/jenkins.git"
+  },
+  "author": "Wendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WendyAfrim/jenkins/issues"
+  },
+  "homepage": "https://github.com/WendyAfrim/jenkins#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "supertest": "^6.3.0"
+  }
+}
